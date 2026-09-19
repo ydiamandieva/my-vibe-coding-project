@@ -75,13 +75,14 @@ The Retention Engine is a clickable prototype that tests whether turning a passi
 
 ## Risks & assumptions for the team
 
-**1. Kill switch is manual. ** The decision to kill or progress the proposition relies on observing qualitative prototype usage, not automated instrumentation.
-**2. Session state loss. ** A accidental refresh during a user test wipes the funnel progress.
+**Risks**
+**1. Kill switch is manual.** The decision to kill or progress the proposition relies on observing qualitative prototype usage, not automated instrumentation.
+**2. Session state loss.** A accidental refresh during a user test wipes the funnel progress.
 **3. No concurrency model.** Multiple users sharing the same preview would not see each other's actions; this is fine for single-tester prototypes but not for team validation.
 **4. Arcadia error is synthetic.** The unreliable-data state looks real but does not represent an actual backend failure path.
 
 
-## Assumptions
+**Assumptions**
 - The target user (CSM / AM) recognises the metrics (ARR, renewal window, seat utilisation, engagement trend) as meaningful signals.
 - A recommended action expressed as "Re-engage the account champion before renewal" is specific enough to trigger action.
 - The kill-switch threshold (identify → investigate → initiate → complete) is the right behavioural proxy for value.
@@ -103,8 +104,7 @@ bunx tsgo --noEmit
 bun run build
 ```
 
-## Verification checklist for the next engineer
-
+**Verification checklist for the next engineer**
 1. Load / and confirm the Risk Workspace renders with headline metrics and Priority Accounts list.
 2. Select **Northstar Labs** → Account Detail opens → health drivers show impact/significance.
 3. Click **Create action** → Recommended Action & Action Creation → edit owner/due date/description → **Create action**.
