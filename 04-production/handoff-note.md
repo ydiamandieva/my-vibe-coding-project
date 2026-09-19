@@ -34,7 +34,7 @@ The Retention Engine is a clickable prototype that tests whether turning a passi
 - ActionRecord: created when the user initiates an action; status and outcome are updated in session state.
 - ExperimentEvent: tracks funnel transitions (risk identified, account investigated, action initiated, action completed).
 
-- **Key flows:**
+**Key flows:**
 
 **1. Risk identification → investigation**
 - User lands on Risk Workspace.
