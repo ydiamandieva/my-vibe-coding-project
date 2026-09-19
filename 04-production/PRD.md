@@ -56,13 +56,25 @@ Mocked vs real: the hypothesis is tested against seeded data within a single bro
 | 13 | Session continuity	| Should	| Filters, investigated accounts, actions, outcomes and funnel events survive page reload within the browser session |
 
 ## Data & events
-Mocked vs real: all data below is seeded prototype data. There is no backend, no auth, and no live telemetry. State lives in sessionStorage only and resets with a new session. The "18 Sep, 14:20" sync timestamp on the Arcadia Systems error state is scripted, not observed.
+**Mocked vs real: all data below is seeded prototype data. There is no backend, no auth, and no live telemetry. State lives in sessionStorage only and resets with a new session. The "18 Sep, 14:20" sync timestamp on the Arcadia Systems error state is scripted, not observed.**
 
 Data entities:
 
-Accounts (5 seeded): Northstar Labs (Critical, 21, $184k, renewal 14 days), Relay Collective (Critical, 27, $146k), Canopy Health (High, 39, $128k), Arcadia Systems (High, 46, $96k, stale telemetry), Meridian Works (Medium, 58, $72k). Each carries owner, stage, risk reason, engagement trend, active seats, last activity, four weighted health drivers with per-driver evidence, an optional customer quote, and a recommendation (title, why, owner, due, description).
-Metrics (4 seeded): ARR at risk, 90-day churn, activation rate, active seats/account.
-Telemetry status: per account; Arcadia Systems is seeded as stale with "Engagement trend" and "Adoption breadth" marked unavailable.
+**Accounts (5 seeded)**: Northstar Labs (Critical, 21, $184k, renewal 14 days), Relay Collective (Critical, 27, $146k), Canopy Health (High, 39, $128k), Arcadia Systems (High, 46, $96k, stale telemetry), Meridian Works (Medium, 58, $72k). Each carries owner, stage, risk reason, engagement trend, active seats, last activity, four weighted health drivers with per-driver evidence, an optional customer quote, and a recommendation (title, why, owner, due, description).
+**Metrics (4 seeded)**: ARR at risk, 90-day churn, activation rate, active seats/account.
+**Telemetry status**: per account; Arcadia Systems is seeded as stale with "Engagement trend" and "Adoption breadth" marked unavailable.
+
+Events logged to the session store (power the Hypothesis Monitor):
+
+| Event | Fired when | 
+|---|---|
+| Account investigated | Account drawer opened | 
+| Action initiated	| Create action confirmed |
+| Recommendation dismissed	| Dismiss recommendation |
+| Action status changed	| Not started → In progress → Completed | 
+| Action completed / outcome captured	| Outcome option selected |
+
+Funnel counts: identified (accounts in queue) → investigated → action initiated → action completed, with conversion and drop-off derived from the event log.
 
 ## Open questions
 
