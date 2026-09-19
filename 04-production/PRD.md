@@ -17,6 +17,7 @@ Mocked vs real: the hypothesis is tested against seeded data within a single bro
 ## Users & jobs
 
 **Primary user:** Customer Success Managers and Account Managers accountable for customer health, renewals, and retention.
+
 **Job to be done:** When renewal risk is building in my book of accounts, I want to quickly see which accounts need attention, understand exactly why, and initiate the right intervention — so I can act weeks before renewal instead of reacting after churn.  Supporting user voices (shown on screen in the prototype as evidence attached to risk drivers):  "I signed up, poked around for ten minutes, and never figured out what it actually did for my team." — Ops lead, churned day 12 "We renewed once but couldn't point to a single number that changed because of it." — VP Product, did not renew "The value was probably in there somewhere, but I needed it to prove itself in week one, not month three." — Founder, churned day 63
 
 ## Scope
@@ -29,7 +30,8 @@ Mocked vs real: the hypothesis is tested against seeded data within a single bro
 - Hypothesis Monitor: full funnel Risk identified → Account investigated → Action initiated → Action completed, conversion and drop-off, kill-switch status, decision rule verbatim, and session behavioural evidence (investigated, actioned, dismissed accounts and time-ordered events).
 - State handling: skeleton loading ("Updating account risk signals… Analysing product usage, renewal and account activity."), filter-empty state with Clear filters, no-critical-accounts state, and unavailable-telemetry error state ("Health score temporarily unavailable. - Product activity hasn't synced since 18 Sep, 14:20.") with Retry and View available evidence.
 
-**Out (explicitly):** - Authentication, user accounts, roles, multi-user collaboration.
+**Out (explicitly):** 
+- Authentication, user accounts, roles, multi-user collaboration.
 - Persistence beyond the browser session; real backend, database, or API integrations.
 - Real product-usage telemetry, CRM, or billing sync.
 - Notifications, reminders, email/calendar scheduling of actions.
@@ -54,9 +56,6 @@ Mocked vs real: the hypothesis is tested against seeded data within a single bro
 | 13 | Session continuity	| Should	| Filters, investigated accounts, actions, outcomes and funnel events survive page reload within the browser session |
 
 ## Data & events
-
-_What gets stored, what gets tracked._
-
 Mocked vs real: all data below is seeded prototype data. There is no backend, no auth, and no live telemetry. State lives in sessionStorage only and resets with a new session. The "18 Sep, 14:20" sync timestamp on the Arcadia Systems error state is scripted, not observed.
 
 Data entities:
