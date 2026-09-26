@@ -44,7 +44,7 @@ _Who can see / do what? Where are the auth boundaries?_
 
 ## Edge cases hardened
 
-**Empty / first-run state **
+**Empty / first-run state** 
 
 | Case | Before | After |
 |---|---|---|
