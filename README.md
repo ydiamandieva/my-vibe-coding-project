@@ -10,30 +10,30 @@ This is a **template repo**. Click **Use this template → Create a new reposito
 
 | # | Module | Commits | Status | Folder |
 |---|---|---|---|---|
-| 1 | **Velocity** | `prototype-v1.md` · `prototype-v2.md` · `confidence-line-reflection.md` | ☐ | `01-velocity/` |
-| 2 | **Validation** | `validation-brief.md` · `prototype-v3.md` · `show-and-swap-notes.md` | ☐ | `02-validation/` |
-| 3 | **Prompt Chaining** | `PROMPTS.md` (Living Prompt Pack) | ☐ | `03-chaining/` |
-| 4 | **Production Specs** | `PRD.md` · `handoff-note.md` | ☐ | `04-production/` |
-| 5 | **Full-Stack** | deployed share link + hardening notes | ☐ | `05-fullstack/` |
-| 6 | **Evals & Iteration** | final showcase + go/iterate/kill recommendation | ☐ | `06-iteration/` |
+| 1 | **Velocity** | `prototype-v1.md` · `prototype-v2.md` · `confidence-line-reflection.md` | x | `01-velocity/` |
+| 2 | **Validation** | `validation-brief.md` · `prototype-v3.md` · `show-and-swap-notes.md` | x | `02-validation/` |
+| 3 | **Prompt Chaining** | `PROMPTS.md` (Living Prompt Pack) | x | `03-chaining/` |
+| 4 | **Production Specs** | `PRD.md` · `handoff-note.md` | x | `04-production/` |
+| 5 | **Full-Stack** | deployed share link + hardening notes | x | `05-fullstack/` |
+| 6 | **Evals & Iteration** | final showcase + go/iterate/kill recommendation | x | `06-iteration/` |
 
 ## My scenario
 
 _Pick one in Module 2: no switching after M2._
 
-- [ ] The Retention Engine (B2B SaaS, value risk)
+- [x] The Retention Engine (B2B SaaS, value risk)
 - [ ] The Internal Tool Nobody Uses (CRM, usability)
 - [ ] The Marketplace Trust Problem (value / feasibility)
 - [ ] The Dashboard Nobody Reads (usability)
 - [ ] Bring your own (instructor-approved)
 
-**Chosen scenario:** _____
+**Chosen scenario:** The Retention Engine (B2B SaaS, value risk)
 
 ## The three ingredients (visible in every build)
 
-1. **Hypothesis**: what you believe and why
-2. **Real data**: domain metrics on screen, no placeholders
-3. **User voice**: real verbatim quotes
+1. **Hypothesis**: We believe that transforming the dashboard from a passive risk summary into an actionable retention workflow — combining risk filters, account drill-down, explainable health scores, contextual account insights, and recommended next steps — will enable Customer Success Managers and Account Managers to: identify which accounts require attention faster; understand the underlying drivers of risk; and initiate appropriate retention actions earlier.
+2. **Real data**: 9 visitors, 31 page views, 3.44 views/visit, 1m 57s duration, 33% bounce — all on Sep 26. Pages: / 9, /auth 6, /workspace 5 (6 of 9 visitors reached sign-in, 5 got through to the workspace).
+3. **User voice**: "Well and deeply built workflows, I would need to spend more time to digest all the details. Two things I could not figure out: how can I impact the key metrics — I thought if I start actions, invites sent will change. Also could not get the details on Actions menu. It is showing there are 3, but clicking does not work."
 
 ___
 
