@@ -14,7 +14,7 @@ Customer Success / Account teams will take earlier and more effective retention 
 
 ## Hypothesis
 
-> We believe **Turn the dashboard from a passive risk summary into an actionable workflow with risk filters, account drill-down, explainable health scores, contextual account information, and recommended next steps.** will cause **Users identify priority accounts faster, understand what is driving the risk, and take appropriate retention action earlier.** for **Customer Success Managers and Account Managers accountable for customer health, renewals, and retention.**. We'll know we're right when **Users move from risk signal → account investigation → recommended action, with a measurable increase in action taken on high-risk accounts.**.
+> We believe that transforming the dashboard from a passive risk summary into an actionable retention workflow — combining risk filters, account drill-down, explainable health scores, contextual account insights, and recommended next steps — will enable Customer Success Managers and Account Managers to: identify which accounts require attention faster; understand the underlying drivers of risk; and initiate appropriate retention actions earlier..**.
 
 ## Risk type
 
