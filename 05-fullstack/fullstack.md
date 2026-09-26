@@ -47,6 +47,9 @@ _Who can see / do what? Where are the auth boundaries?_
 | Case | Before | After |
 |---|---|---|
 | Empty / first-run state | Empty workspace -  The account list rendered blank with no explanation; a new user couldn't tell if it was loading, broken, or just empty. | Adedicated empty state explains there are no accounts yet and offers a Get started button; a separate "No accounts match these filters" state with Clear filters covers the filter-hides-everything case, so the two kinds of "empty" are never confused. |
+| First visit, no profile | A brand-new user had no display name or initials, so anything they created showed blank ownership. | A profile is created automatically on first visit, so the first action they save already carries their name. | 
+| First save of an action | Creating an action twice (double-click, or two tabs) could create duplicates or throw an error. | The first save inserts; any repeat updates the same record, so the user always ends with exactly one action per account. | 
+| Empty dashboard numbers | The four headline numbers were fixed demo values that implied activity that never happened. | With no invites sent, the numbers honestly read 0 and the acceptance rate shows "—" until someone actually responds. |
 | Bad / malicious input | Forged ownership - user_id came from the browser, so anyone could send a hand-crafted request writing records in someone else's name. | The server ignores any supplied user_id and stamps it from the verified login session — forging it is impossible even with a modified request. |
 | Failure / offline | Load failure - If the workspace data failed to load, the screen sat on a broken or blank state with no way forward. | An inline error message explains what went wrong and a Retry button reloads the data without losing your place. |
 
