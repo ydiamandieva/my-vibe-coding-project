@@ -44,14 +44,32 @@ _Who can see / do what? Where are the auth boundaries?_
 
 ## Edge cases hardened
 
+**Empty / first-run state **
+
 | Case | Before | After |
 |---|---|---|
-| Empty / first-run state | Empty workspace -  The account list rendered blank with no explanation; a new user couldn't tell if it was loading, broken, or just empty. | Adedicated empty state explains there are no accounts yet and offers a Get started button; a separate "No accounts match these filters" state with Clear filters covers the filter-hides-everything case, so the two kinds of "empty" are never confused. |
+| Empty workspace | The account list rendered blank with no explanation; a new user couldn't tell if it was loading, broken, or just empty. | Adedicated empty state explains there are no accounts yet and offers a Get started button; a separate "No accounts match these filters" state with Clear filters covers the filter-hides-everything case, so the two kinds of "empty" are never confused. |
 | First visit, no profile | A brand-new user had no display name or initials, so anything they created showed blank ownership. | A profile is created automatically on first visit, so the first action they save already carries their name. | 
 | First save of an action | Creating an action twice (double-click, or two tabs) could create duplicates or throw an error. | The first save inserts; any repeat updates the same record, so the user always ends with exactly one action per account. | 
 | Empty dashboard numbers | The four headline numbers were fixed demo values that implied activity that never happened. | With no invites sent, the numbers honestly read 0 and the acceptance rate shows "—" until someone actually responds. |
-| Bad / malicious input | Forged ownership - user_id came from the browser, so anyone could send a hand-crafted request writing records in someone else's name. | The server ignores any supplied user_id and stamps it from the verified login session — forging it is impossible even with a modified request. |
-| Failure / offline | Load failure - If the workspace data failed to load, the screen sat on a broken or blank state with no way forward. | An inline error message explains what went wrong and a Retry button reloads the data without losing your place. |
+
+**Bad / malicious input**
+
+| Case | Before | After |
+|---|---|---|
+| Forged ownership | user_id came from the browser, so anyone could send a hand-crafted request writing records in someone else's name. | The server ignores any supplied user_id and stamps it from the verified login session — forging it is impossible even with a modified request. |
+|Reading other people's work |Signed-in users could read every user's actions, investigations and events.| The database itself refuses to return rows where user_id doesn't match your session — the restriction is enforced in the database, not just hidden in the screen.|
+|Invalid values |Nothing stopped a status like "Done-ish" or a nonsense stage being saved, which would corrupt the funnel counts.| The database rejects any status outside Not started / In progress / Completed and any event stage outside the five known ones; server functions also validate their inputs before touching the database.|
+| Anonymous access | (Earlier still) reference tables were readable without logging in. | Every table requires a valid session; the workspace route redirects signed-out visitors to the sign-in page, and server functions reject unauthenticated calls. |
+
+**Failure / offline**
+
+| Case | Before | After |
+|---|---|---|
+| Load failure | If the workspace data failed to load, the screen sat on a broken or blank state with no way forward. | An inline error message explains what went wrong and a Retry button reloads the data without losing your place. |
+| Slow connection | During loading, the page showed nothing or partial content that jumped around. | Grey placeholder shapes hold the layout for the metrics and account list until real data arrives. |
+| Save failure | A failed save could silently lose the user's input. | A visible notice reports the failure, the underlying record is untouched, and the user can try again. |
+| Simultaneous edits | Two people (or two tabs) saving the same action at the same time could lose the later save or error out on the duplicate. | Last write wins — the later save overwrites the earlier one cleanly, and the duplicate-key conflict is caught and converted into an update. |
 
 ## Stress test results
 
