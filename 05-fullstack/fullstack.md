@@ -55,3 +55,5 @@ _Who can see / do what? Where are the auth boundaries?_
 _What you threw at it, and what held / broke._
 
 _____
+
+**One honest gap**: if the network drops mid-save, the app reports the failure but doesn't queue the change for automatic retry — the user has to hit save again once they're back online. Say the word if you want that queued-retry behaviour added.
