@@ -4,7 +4,7 @@
 
 ## Deployed link
 
-_The working, shareable link that survives real users._
+_[The working, shareable link that survives real users.](https://rls-radiance-forge.lovable.app)_
 
 _____
 
