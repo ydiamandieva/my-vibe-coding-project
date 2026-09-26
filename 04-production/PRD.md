@@ -4,13 +4,20 @@
 
 ## Problem
 
-Customer Success Managers and Account Managers can see that accounts are at risk, but risk dashboards stop at passive monitoring. The result: renewals arrive with no intervention taken, $1.1M ARR is at risk in the next renewal window, 30% of new accounts churn within 90 days, only 22% activate in week one, and adoption rarely spreads past the buyer (1.4 active seats per account).
+Customer Success Managers and Account Managers can identify accounts showing signs of risk, but existing dashboards largely stop at passive monitoring rather than enabling intervention.
+The result is a gap between knowing an account is at risk and acting on that risk: renewals approach without timely intervention, $1.1M ARR is exposed in the next renewal window, 30% of new accounts churn within 90 days, only 22% activate in their first week, and adoption rarely expands beyond the initial buyer, averaging just 1.4 active seats per account.
 
-**Hypothesis under test (validated by this prototype)**: turning the dashboard from a passive risk summary into an actionable workflow — risk filters, account drill-down, explainable health scores, contextual account information, and recommended next steps — causes users to identify priority accounts faster, understand what is driving the risk, and take retention action earlier.
+**Hypothesis under test**
+We believe that transforming the dashboard from a passive risk summary into an actionable retention workflow — combining risk filters, account drill-down, explainable health scores, contextual account insights, and recommended next steps — will enable Customer Success Managers and Account Managers to: identify which accounts require attention faster; understand the underlying drivers of risk; and initiate appropriate retention actions earlier.
 
-**Success signal**: users move from risk signal → account investigation → recommended action, with a measurable increase in action taken on high-risk accounts.
+**Success signal**
+We’ll know the hypothesis is supported when users consistently progress through the intended workflow:
+Risk signal → Account investigation → Recommended action → Action initiated
+with a measurable increase in the rate and speed of action taken on high-risk accounts.
 
-**Kill switch (verbatim, shown in the product)**: "If users can identify and understand high-risk accounts but still do not take or initiate an action, the proposition is not solving a sufficiently valuable workflow problem and should not progress in its current form."
+**Kill switch**
+“If users can identify and understand high-risk accounts but still do not take or initiate an action, the proposition is not solving a sufficiently valuable workflow problem and should not progress in its current form.”
+
 
 _Mocked vs real: the hypothesis is tested against seeded data within a single browser session. No real customer behaviour has been measured yet._
 
