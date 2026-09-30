@@ -6,13 +6,13 @@
 
 _What real usage showed: numbers if your tool has analytics, counted behaviour if it does not. Put the signal that matters on screen._
 
-- **Primary signal:** Users who reach the Risk workspace take retention action — 8 investigations → 4 actions initiated → 3 completed (50% investigated→initiated, 75% initiated→completed).
+- **Primary signal:** 8 investigations → 4 actions initiated → 3 completed (50% investigated → initiated; 75% initiated → completed).
 - **What moved:** The core workflow converts. 5 signed-in users generated 17 hypothesis events; 3 of 4 initiated actions were completed with a recorded outcome. Session depth backs it: 3.44 pages/visit, 1m 57s average duration, 33% bounce — people who get in, stay and work.
 - **What didn't:** Invites — 0 sent, and the peer confirmed why: the metric strip shows invite numbers but starting an action doesn't move them, and there's no way to send an invite from the app. Also the "Actions (3)" menu doesn't open — a dead click at exactly the moment a user wants to review their work.
 
 _Analytics snapshot: visitors 9; page views 31; views per visit 3.44; duration 1m 57s; bounce 33%._
 
-_Observed behaviour: reach 1 of 4; core action 1 of 4; stall point Risk workspace; explained away -; own first run 2, both on call for actions._
+_Observed behaviour: 4 of 8 investigated accounts progressed to an initiated action (50%), above the 30% validation threshold. However, only 5 signed-in users participated, so the minimum evidence base of 15 target-user sessions has not yet been reached._
 
 ## Iteration sprint
 
@@ -30,7 +30,7 @@ Well, and deeply built workflows, I would need to spend here more time to digest
 
 **Decision:** ☐ Go  x Iterate  ☐ Kill
 
-_The evidence that justifies the call:_ Early behavioural evidence supports the core workflow: users progressed from investigation to action creation and completion. With only five signed-in users and no longitudinal retention outcome yet, this validates workflow viability — not the broader retention-value hypothesis.
+_The evidence that justifies the call:_ Early behavioural evidence supports the core workflow: users progressed from investigation to action creation and completion. With only five signed-in users and no longitudinal retention outcome yet, this validates workflow viability — not the broader retention-value hypothesis. 
 
 _____
 
