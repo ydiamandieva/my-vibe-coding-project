@@ -6,7 +6,9 @@
 
 _Where does it look like a toy? Where would a VP of Design refuse to open it? Where does the logic feel fake? Pick the one spot that costs you the most credibility._
 
-The weakest section is the dashboard’s lack of drill-down and actionability. It surfaces a
+The weakest section is the dashboard’s lack of drill-down and actionability. It surfaces accounts at risk but provides no clear way to investigate why a specific account is at risk, connect the insight to CRM data, identify the responsible account manager, or involve the internal stakeholders who need to act. As a result, it feels more like a static report than an operational decision-making tool—it tells the user 'this account may churn' but leaves them asking, 'So what do I do next?' 
+
+The dashboard should turn insight into immediate action by enabling users to investigate the drivers, assign or trigger interventions, share insights with relevant stakeholders, and act quickly on the churn signal.
 
 ## Upgrade paths run (pick two)
 
