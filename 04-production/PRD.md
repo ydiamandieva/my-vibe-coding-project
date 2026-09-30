@@ -18,7 +18,7 @@ with a measurable increase in the rate and speed of action taken on high-risk ac
 
 **Kill switch**
 
-“If users can identify and understand high-risk accounts but still do not take or initiate an action, the proposition is not solving a sufficiently valuable workflow problem and should not progress in its current form.”
+“If users can identify and understand high-risk accounts but still do not take or initiate an action, the proposition is not solving a sufficiently valuable workflow problem and should not progress in its current form.'
 
 
 _Mocked vs real: the hypothesis is tested against seeded data within a single browser session. No real customer behaviour has been measured yet._
