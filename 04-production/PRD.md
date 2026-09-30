@@ -91,6 +91,6 @@ Funnel counts: identified (accounts in queue) → investigated → action initia
 2. Score model. Are the four drivers and weights correct for production, and who owns tuning them?
 3. Owner assignment. Is the action owner always the account owner, or routed by play/segment?
 4. After outcome capture. Does a completed action update the health score, create follow-ups, or feed a playbook library?
-5. Kill-switch thresholds. What conversion rate from investigated → initiated validates the hypothesis, and over how many real users and weeks?
+5. Kill-switch thresholds. Validation threshold: ≥30% investigated → initiated conversion across at least 15 target-user sessions.
 6. Scale. Behaviour with hundreds of accounts: grouping, pagination, team views, and cross-account prioritisation.
 7. Persistence and audit. Retention of actions, outcomes and funnel data across sessions and users; visibility for managers.
