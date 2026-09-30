@@ -13,7 +13,7 @@ I really like the Recommended next step that's listed in each account.
 
 ## Where they got confused / pushed back
 
-It would be beneficial if the "Why this account is at risk" within each account could be further clarified
+It would be beneficial if the 'Why this account is at risk' within each account could be further clarified.
 
 ## What I'll change as a result
 
