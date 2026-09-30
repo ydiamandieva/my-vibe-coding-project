@@ -29,6 +29,6 @@ The dashboard should turn insight into immediate action by enabling users to inv
 
 _A NEW partner, a blind read. What landed differently from v1?_
 
-- **Feels like a real product, or a mockup?** _____
-- **Where interactivity fell short:** _____
-- **Would they show it to a VP?** _____
+- **Feels like a real product, or a mockup?** Much closer to a real product. The filters, account drill-down, explainable health score, churn drivers, and recommended actions make it feel like an operational workflow rather than a static dashboard.
+- **Where interactivity fell short:** The workflow still stops short of closing the loop. I can investigate the risk, but I’d expect to assign an action, notify/share with the account owner, update the CRM, or track whether the intervention happened and changed the risk.
+- **Would they show it to a VP?** Yes, as a credible prototype. It now demonstrates the journey from 'which accounts are at risk? → 'why?' → 'what should we do?', but stronger action execution and outcome tracking would make the proposition significantly more convincing.
