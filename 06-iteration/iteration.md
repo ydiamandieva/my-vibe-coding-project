@@ -30,7 +30,7 @@ Well, and deeply built workflows, I would need to spend here more time to digest
 
 **Decision:** ☐ Go  x Iterate  ☐ Kill
 
-_The evidence that justifies the call:_ The core loop provably works — investigated→initiated 50%, initiated→completed 75%, with outcomes recorded. But the kill-switch condition (users understand risk yet don't act) was not triggered; what failed is the periphery: invites are visible but not actionable, and the Actions menu is a dead end. Both are fixable in one sprint, not reasons to kill.
+_The evidence that justifies the call:_ Early behavioural evidence supports the core workflow: users progressed from investigation to action creation and completion. With only five signed-in users and no longitudinal retention outcome yet, this validates workflow viability — not the broader retention-value hypothesis.
 
 _____
 
