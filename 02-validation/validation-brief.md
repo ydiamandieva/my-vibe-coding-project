@@ -27,7 +27,7 @@ Customer Success / Account teams will take earlier and more effective retention 
 
 _The result that would make you stop or pivot._
 
-If users can identify and understand high-risk accounts but still do not take or initiate an action, the proposition is not solving a sufficiently valuable workflow problem and should not progress in its current form.
+Iterate rather than progress if fewer than 30% of target users who investigate a high-risk account initiate a recommended action across at least 15 target-user sessions; kill/pivot if qualitative evidence shows users understand the risk but consistently prefer their existing workflow.
 
 ## The three ingredients
 
