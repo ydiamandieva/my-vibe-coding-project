@@ -6,7 +6,7 @@
 
 _Each prompt is a reusable step. Chain them: the output of one becomes the input to the next._
 
-## Prompt chain: [name your flow]
+## Prompt chain: Complete → Harden → Refine
 
 ### Step 1: Complete the end-to-end retention workflow
 ```
