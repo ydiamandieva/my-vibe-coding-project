@@ -17,4 +17,4 @@ It would be beneficial if the 'Why this account is at risk' within each account 
 
 ## What I'll change as a result
 
-_____
+Make the risk explanation more transparent and actionable by breaking down why each account is at risk, showing the specific signals driving the risk assessment, while retaining the Recommended next step so users can move directly from understanding the risk to taking action.
