@@ -1,9 +1,6 @@
 # Vibe Coding Project: Living Repo
 
 > My final project for Product School's **AI Vibe Coding** certification. One product problem carried across six modules, progressing from an untested hypothesis to a deployed, instrumented workflow with early behavioural evidence.
-
-> This is a **template repo**. Click **Use this template → Create a new repository**, name it `my-vibe-coding-project`, and commit one module's artifact per session. **The repo is your portfolio, it shows the journey, not just the endpoint.**
-
 ---
 
 ## Deliverables at a glance
