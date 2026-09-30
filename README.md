@@ -31,7 +31,7 @@ _Pick one in Module 2: no switching after M2._
 
 ## The three ingredients (visible in every build)
 
-1. **Hypothesis**: We believe that transforming the dashboard from a passive risk summary into an actionable retention workflow — combining risk filters, account drill-down, explainable health scores, contextual account insights, and recommended next steps — will enable Customer Success Managers and Account Managers to: identify which accounts require attention faster; understand the underlying drivers of risk; and initiate appropriate retention actions earlier.
+1. **Hypothesis**: We believe that transforming the dashboard from a passive risk summary into an actionable retention workflow - combining risk filters, account drill-down, explainable health scores, contextual account insights, and recommended next steps - will enable Customer Success Managers and Account Managers to: identify which accounts require attention faster; understand the underlying drivers of risk; and initiate appropriate retention actions earlier.
 2. **Real data**: 9 visitors, 31 page views, 3.44 views/visit, 1m 57s duration, 33% bounce — all on Sep 26. Pages: / 9, /auth 6, /workspace 5 (6 of 9 visitors reached sign-in, 5 got through to the workspace).
 3. **User voice**: "Well and deeply built workflows, I would need to spend more time to digest all the details. Two things I could not figure out: how can I impact the key metrics — I thought if I start actions, invites sent will change. Also could not get the details on Actions menu. It is showing there are 3, but clicking does not work."
 
