@@ -44,11 +44,11 @@ The Retention Engine is a clickable prototype that tests whether turning a passi
 **2. Recommendation → action creation**
 - In Account Detail, the user can open Recommended Action & Action Creation.
 - Editable fields: owner, due date, action description.
-- Primary CTA "Create action" records the action and fires createAction() in session state.
+- Primary CTA 'Create action' records the action and fires createAction() in session state.
 - Dismiss recommendation fires dismissRecommendation().
 
 **3. Action detail → outcome**
-- "View action" opens Action Detail & Outcome.
+- 'View action' opens Action Detail & Outcome.
 - User advances status: Not started → In progress → Completed.
 - On completion, an outcome is selected (Customer contacted / Meeting scheduled / Risk reduced / No response / Other).
 - completeAction() records the funnel completion.
@@ -84,7 +84,7 @@ The Retention Engine is a clickable prototype that tests whether turning a passi
 
 **Assumptions**
 - The target user (CSM / AM) recognises the metrics (ARR, renewal window, seat utilisation, engagement trend) as meaningful signals.
-- A recommended action expressed as "Re-engage the account champion before renewal" is specific enough to trigger action.
+- A recommended action expressed as 'Re-engage the account champion before renewal' is specific enough to trigger action.
 - The kill-switch threshold (identify → investigate → initiate → complete) is the right behavioural proxy for value.
 - The current visual language from the Northstar Labs reference is acceptable for validation; no further design exploration is needed.
 
