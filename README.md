@@ -1,6 +1,7 @@
 # Vibe Coding Project: Living Repo
 
 > My final project for Product School's **AI Vibe Coding** certification. One product problem carried across six modules, progressing from an untested hypothesis to a deployed, instrumented workflow with early behavioural evidence.
+> Confidence Line statement: From “plausible workflow, untested” (M2) to “workflow viability supported by early real-user behaviour; broader retention-value hypothesis still requires validation”.
 ---
 
 ## Deliverables at a glance
