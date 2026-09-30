@@ -7,7 +7,7 @@
 _What real usage showed: numbers if your tool has analytics, counted behaviour if it does not. Put the signal that matters on screen._
 
 - **Primary signal:** 8 investigations → 4 actions initiated → 3 completed (50% investigated → initiated; 75% initiated → completed).
-- **What moved:** The core workflow converts. 5 signed-in users generated 17 hypothesis events; 3 of 4 initiated actions were completed with a recorded outcome. Session depth backs it: 3.44 pages/visit, 1m 57s average duration, 33% bounce — people who get in, stay and work.
+- **What moved:** he core workflow shows a positive early conversion signal. 5 signed-in users generated 17 hypothesis events; 3 of 4 initiated actions were completed with a recorded outcome. Session depth backs it: 3.44 pages/visit, 1m 57s average duration, 33% bounce — people who get in, stay and work.
 - **What didn't:** Invites — 0 sent, and the peer confirmed why: the metric strip shows invite numbers but starting an action doesn't move them, and there's no way to send an invite from the app. Also the "Actions (3)" menu doesn't open — a dead click at exactly the moment a user wants to review their work.
 
 _Analytics snapshot: visitors 9; page views 31; views per visit 3.44; duration 1m 57s; bounce 33%._
