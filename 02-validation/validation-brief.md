@@ -35,9 +35,9 @@ If users can identify and understand high-risk accounts but still do not take or
   - 1.4, Seats active / account: adoption rarely spreads past the buyer.
   - $1.1M, ARR at risk in the next renewal window.
   - 30%, 90-day churn: share of new accounts gone within 3 months.
-  - 22%, Activation rate: reach the "aha" action in week one.
+  - 22%, Activation rate: reach the 'aha' action in week one.
 - **User voice (verbatim quotes):**
-  - "I signed up, poked around for ten minutes, and never figured out what it actually did for my team.", Ops lead, churned day 12
-  - "We renewed once but couldn't point to a single number that changed because of it.", VP Product, did not renew
-  - "The value was probably in there somewhere, but I needed it to prove itself in week one, not month three.", Founder, churned day 63
+  - 'I signed up, poked around for ten minutes, and never figured out what it actually did for my team.', Ops lead, churned day 12
+  - 'We renewed once but couldn't point to a single number that changed because of it.', VP Product, did not renew
+  - 'The value was probably in there somewhere, but I needed it to prove itself in week one, not month three.', Founder, churned day 63
 - **Hypothesis (above):** ✓
